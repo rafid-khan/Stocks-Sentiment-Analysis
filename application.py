@@ -1,5 +1,5 @@
 '''
-File: main.py 
+File: application.py 
 This application prompts the user for a stock ticker name, which is then
 used to search FinViz, a browser-based stock market research platform,
 for the latest news articles related to the stock. The website is then stored
