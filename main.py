@@ -146,7 +146,7 @@ def plot_daily_sentiment(parsed_and_scored_news, ticker):
     return fig
 
 
-app = Flask(__name__, template_folder='templates')
+application = app = Flask(__name__, template_folder='templates')
 
 
 @app.route('/')
@@ -187,4 +187,4 @@ if __name__ == '__main__':
     app.debug = True
     app.run()
 
-    
+
